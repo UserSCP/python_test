@@ -3,7 +3,16 @@ from pytube import YouTube
 from tkinter import messagebox
 import os
 from moviepy.editor import VideoFileClip, AudioFileClip
+"""
+-api que utilice, si no lo bajas no te anda
 
+python -m venv myenv
+.\myenv\Scripts\activate
+----
+python -m pip install --upgrade pip
+pip install pytube moviepy
+
+"""
 def Downloader():
     try:
         url = link.get()
