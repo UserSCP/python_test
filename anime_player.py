@@ -2,9 +2,9 @@ from animeflv import AnimeFLV
 from animeflv.exception import AnimeFLVParseError
 """
 la api que uce
-git clone https://github.com/jorgeajimenezl/animeflv-api.git
-cd animeflv
-git install -r requirements.txt
+git clone https://github.com/UserSCP/animeflv-api.git
+cd animeflv-api
+pip install -r requirements.txt
 pip install .
 """
 with AnimeFLV() as api:
